@@ -20,7 +20,7 @@ function Error(v) {
       return "Email is not valid";
 
     case 6:
-      return `Password must be "your Password" > 6 !`;
+      return `Password must be "your Password" > 6 and at least one alphabate character!`;
 
     case 7:
       return "password not match";
